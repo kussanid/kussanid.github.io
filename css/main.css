@@ -251,6 +251,7 @@ textarea {
   p,
   h2,
   h3 {
+     font-size: 30px;
     orphans: 3;
     widows: 3;
   }
