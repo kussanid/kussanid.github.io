@@ -10,7 +10,7 @@
 <div class="container mregister">
     <div id="login">
         <h1>Регистрация</h1>
-        <form action="register.php" id="registerform" method="post"name="registerform">
+        <form action="registor.php" id="registerform" method="post"name="registerform">
             <p><label for="user_login">Полное имя<br>
                 <input class="input" id="full_name" name="full_name"size="32"  type="text" value=""></label></p>
             <p><label for="user_pass">E-mail<br>
