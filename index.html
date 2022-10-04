@@ -6,7 +6,8 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link href="css/style.css" media="screen" rel="stylesheet">
+    <link href= 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
@@ -24,7 +25,19 @@
 </head>
 
 <body>
-
+<div class="container mlogin">
+<div id="login">
+<h1>Вход</h1>
+<form action="" id="loginform" method="post"name="loginform">
+<p><label for="user_login">Имя опльзователя<br>
+<input class="input" id="username" name="username"size="20"
+type="text" value=""></label></p>
+<p><label for="user_pass">Пароль<br>
+ <input class="input" id="password" name="password"size="20"
+  type="password" value=""></label></p> 
+	<p class="submit"><input class="button" name="login"type= "submit" value="Log In"></p>
+	<p class="regtext">Еще не зарегистрированы?<a href= "register.php">Регистрация</a>!</p>
+   </form>
   <!-- Add your site or application content here -->
   <h1>Здесь что-то будет</h1>
   <button onclick="window.location.href = 'https://ru.wiktionary.org/wiki/%D0%BF%D0%BE%D1%88%D0%BB%D0%B8_%D0%BD%D0%B0_%D1%85%D1%83%D0%B9'">Крутая кнопка</button>
